@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ovoz</string>
+    <string name="recognition_name">Ovoz — nutq tanish</string>
+    <string name="recognize_label">Ovoz — nutqni tani</string>
+    <string name="setup_title">Ovoz — nutq tanish sozlamalari</string>
+
+    <!-- Model -->
+    <string name="model_ready">Model tayyor. Ilova oflayn ishlaydi.</string>
+    <string name="model_missing">Model yuklanmagan. Nutq tanish ishlashi uchun modelni yuklab oling.</string>
+    <string name="model_downloading_start">Model yuklanmoqda…</string>
+    <string name="model_downloading">Model yuklanmoqda: %1$d%%</string>
+    <string name="model_error">Xatolik: %1$s. Internetni tekshirib, qayta urinib koʻring.</string>
+    <string name="url_hint">Model manzili (URL)</string>
+    <string name="btn_download">Modelni yuklash</string>
+    <string name="btn_retry">Qayta urinish</string>
+    <string name="btn_pick_zip">Modelni .zip fayldan tanlash</string>
+    <string name="err_url">Manzil https:// bilan boshlanishi kerak.</string>
+    <string name="err_open_file">Faylni ochib boʻlmadi.</string>
+
+    <!-- Ruxsat -->
+    <string name="btn_permission">Mikrofon ruxsatini berish</string>
+    <string name="permission_granted">Mikrofon ruxsati berilgan.</string>
+    <string name="permission_denied">Mikrofon ruxsati berilmagan. Ruxsatsiz nutq tanish ishlamaydi.</string>
+
+    <!-- Xizmatlar -->
+    <string name="btn_list_services">Nutq xizmatlarini koʻrish</string>
+    <string name="services_none">Hech qanday nutq xizmati topilmadi.</string>
+    <string name="services_header">Oʻrnatilgan nutq xizmatlari: %1$d ta.</string>
+    <string name="service_ours_yes">Ovoz xizmati roʻyxatda BOR.</string>
+    <string name="service_ours_no">Ovoz xizmati roʻyxatda YOʻQ.</string>
+
+    <string name="btn_current">Hozirgi tanlangan xizmat</string>
+    <string name="current_none">Hech qaysi xizmat tanlanmagan yoki oʻqib boʻlmadi.</string>
+    <string name="current_value">Tanlangan xizmat: %1$s</string>
+    <string name="current_ours">Bu — Ovoz xizmati.</string>
+    <string name="current_other">Bu Ovoz xizmati emas.</string>
+
+    <string name="btn_open_settings">Tizim sozlamalarini ochish</string>
+    <string name="settings_note">Eslatma: baʼzi telefonlar (masalan, Samsung) uchinchi tomon nutq xizmatini tanlashga ruxsat bermaydi. Bunday holatda boshqa ilova nutq kiritishni soʻraganda «Ovoz — nutqni tani» oynasini tanlang.</string>
+    <string name="settings_error">Sozlamalarni ochib boʻlmadi.</string>
+
+    <string name="btn_test">Sinab koʻrish</string>
+    <string name="test_cancelled">Sinov bekor qilindi yoki natija olinmadi.</string>
+    <string name="test_result">Natija: %1$s</string>
+
+    <string name="btn_set_default">Ovozni standart xizmat qilishga urinish</string>
+    <string name="set_default_ok">Tayyor: Ovoz standart nutq xizmati qilib oʻrnatildi.</string>
+    <string name="set_default_denied">Bu amalga tizim ruxsat bermadi. Oddiy ilova standart nutq xizmatini oʻzi almashtira olmaydi. Buni tizim sozlamalaridan qiling.</string>
+    <string name="set_default_failed">Oʻrnatib boʻlmadi: tizim qiymatni qabul qilmadi.</string>
+
+    <!-- Nutqni tani oynasi -->
+    <string name="btn_cancel">Bekor qilish</string>
+    <string name="btn_stop">Tugatish</string>
+    <string name="status_loading_model">Model yuklanmoqda…</string>
+    <string name="status_listening">Tinglayapman…</string>
+    <string name="status_processing">Matnga aylantiryapman…</string>
+    <string name="status_text">Matn: %1$s</string>
+    <string name="err_model_missing">Model tayyor emas. Avval Ovoz ilovasida modelni yuklab oling.</string>
+    <string name="err_permission">Mikrofon ruxsati yoʻq.</string>
+    <string name="err_no_match">Nutq tanilmadi.</string>
+    <string name="err_timeout">Hech narsa eshitilmadi.</string>
+    <string name="err_audio">Mikrofon bilan xatolik.</string>
+    <string name="err_generic">Nutq tanishda xatolik.</string>
+</resources>

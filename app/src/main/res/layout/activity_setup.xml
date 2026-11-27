@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            style="@style/Text.Ovoz.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/setup_title" />
+
+        <!-- Model -->
+        <TextView
+            android:id="@+id/modelStatus"
+            style="@style/Text.Ovoz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ProgressBar
+            android:id="@+id/modelProgress"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:max="100" />
+
+        <EditText
+            android:id="@+id/modelUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:contentDescription="@string/url_hint"
+            android:hint="@string/url_hint"
+            android:inputType="textUri"
+            android:minHeight="56dp"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnDownload"
+            style="@style/Widget.Ovoz.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/btn_download"
+            android:text="@string/btn_download" />
+
+        <Button
+            android:id="@+id/btnPickZip"
+            style="@style/Widget.Ovoz.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/btn_pick_zip"
+            android:text="@string/btn_pick_zip" />
+
+        <!-- Ruxsat -->
+        <Button
+            android:id="@+id/btnPermission"
+            style="@style/Widget.Ovoz.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/btn_permission"
+            android:text="@string/btn_permission" />
+
+        <TextView
+            android:id="@+id/permStatus"
+            style="@style/Text.Ovoz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Xizmatlar -->
+        <Button
+            android:id="@+id/btnListServices"
+            style="@style/Widget.Ovoz.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/btn_list_services"
+            android:text="@string/btn_list_services" />
+
+        <TextView
+            android:id="@+id/servicesResult"
+            style="@style/Text.Ovoz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnCurrent"
+            style="@style/Widget.Ovoz.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/btn_current"
+            android:text="@string/btn_current" />
+
+        <TextView
+            android:id="@+id/currentResult"
+            style="@style/Text.Ovoz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnOpenSettings"
+            style="@style/Widget.Ovoz.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/btn_open_settings"
+            android:text="@string/btn_open_settings" />
+
+        <TextView
+            style="@style/Text.Ovoz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:accessibilityLiveRegion="none"
+            android:text="@string/settings_note" />
+
+        <Button
+            android:id="@+id/btnTest"
+            style="@style/Widget.Ovoz.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/btn_test"
+            android:text="@string/btn_test" />
+
+        <TextView
+            android:id="@+id/testResult"
+            style="@style/Text.Ovoz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnSetDefault"
+            style="@style/Widget.Ovoz.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/btn_set_default"
+            android:text="@string/btn_set_default" />
+
+        <TextView
+            android:id="@+id/defaultResult"
+            style="@style/Text.Ovoz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

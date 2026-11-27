@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="300dp"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/statusText"
+        style="@style/Text.Ovoz.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:accessibilityLiveRegion="polite"
+        android:text="@string/status_listening" />
+
+    <Button
+        android:id="@+id/btnStop"
+        style="@style/Widget.Ovoz.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/btn_stop"
+        android:text="@string/btn_stop" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        style="@style/Widget.Ovoz.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/btn_cancel"
+        android:text="@string/btn_cancel" />
+</LinearLayout>
